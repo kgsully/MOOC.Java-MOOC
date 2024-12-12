@@ -23,8 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-course_config.toml
 *target/
-pom.xml
-.tmcproject.yml
 *test/
+course_config.toml
+.tmcproject.yml
