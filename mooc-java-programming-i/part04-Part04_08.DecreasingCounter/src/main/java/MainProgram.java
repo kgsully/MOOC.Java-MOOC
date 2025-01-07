@@ -1,0 +1,44 @@
+
+public class MainProgram {
+
+    public static void main(String[] args) {
+        // DecreasingCounter counter = new DecreasingCounter(10);
+
+        // counter.printValue();
+        // counter.decrement();
+        // counter.decrement();
+
+        // DecreasingCounter counter = new DecreasingCounter(10);
+
+        // counter.printValue();
+
+        // counter.decrement();
+        // counter.printValue();
+
+        // counter.decrement();
+        // counter.printValue();
+
+        // DecreasingCounter counter = new DecreasingCounter(2);
+
+        // counter.printValue();
+
+        // counter.decrement();
+        // counter.printValue();
+
+        // counter.decrement();
+        // counter.printValue();
+
+        // counter.decrement();
+        // counter.printValue();
+
+        DecreasingCounter counter = new DecreasingCounter(100);
+
+        counter.printValue();
+
+        counter.reset();
+        counter.printValue();
+
+        counter.decrement();
+        counter.printValue();
+    }
+}
