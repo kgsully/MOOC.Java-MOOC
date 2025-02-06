@@ -30,6 +30,10 @@ public class Hand implements Comparable<Hand>{
         return cards;
     }
 
+    public void sortBySuit() {
+        Collections.sort(this.cards, new BySuitInValueOrder());
+    }
+
     @Override
     public int compareTo(Hand otherHand) {
 
